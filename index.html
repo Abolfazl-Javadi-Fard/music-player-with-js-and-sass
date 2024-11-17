@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/music_style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.6.0-web copy/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+
+            <div class="general">
+                <div class="controller ">
+
+                    <div class="muz_img w-100 ">
+                        <img id="cover" src="assets/images/hans_zimmer_interstellar_day one.jpg" alt="muz_1">
+                    </div>
+
+                    <div class="muz_name">interestellar</div>
+                    <div class="muz_atrist">hans zimmer</div>
+                    
+                        
+                    <div class="muz_timeline">
+                        <div class="progress_bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+ 
+                    <div class="btns ">
+                    <button id="prew"><i class="fas fa-step-backward"></i></button>
+                    <button id="play"><i class="fas fa-play"></i></button>
+                    <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+                    </div>
+                    
+                    <div class="music ">
+                        <audio id="myaudio"  preload="none">
+                        <source src='assets/audio/hans_zimmer_interstellar_day one 128.mp3' id="source_audio" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    
+    
+                </div>
+            </div> 
+
+            <div class="playlist ">
+                <div class="list_item" id="1">
+                    <div class="music_name">interstellar </div>
+                    <br>    
+                    <div class="image_container">
+                        <img src="assets/images/hans_zimmer_interstellar_day one.jpg" alt="music_1">
+                    </div>
+                </div>
+                <div class="list_item" id="2">
+                    <div class="music_name">Merry Go Round of Life</div>
+                    <br>    
+                    <div class="image_container">
+                        <img src="assets/images/Merry Go Round of Life.jpg" alt="music_1">
+                    </div>
+                </div>
+                <div class="list_item" id="3">
+                    <div class="music_name">river solo</div>
+                    <br>    
+                    <div class="image_container">
+                        <img src="assets/images/sumie-ink-wash-landscape_905683-101067.jpg" alt="music_1">
+                    </div>
+                </div>
+                <div class="list_item" id="4">
+                    <div class="music_name">lights are on</div>
+                    <br>    
+                    <div class="image_container">
+                        <img src="assets/images/Tom-Rosenthal-Lights-Are-On-1.png" alt="music_1">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </main>
+
+    <script src="assets/js/music_player.js"></script>
+</body>
+</html>
