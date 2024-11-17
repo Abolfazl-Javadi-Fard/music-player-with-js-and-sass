@@ -1,4 +1,6 @@
 # music-player-with-js-and-sass
 ساخت پخش کننده موزیک با استفاده از جاوا اسکریپت و  پریپروسسور اس سی اس اس
-![image](https://github.com/user-attachments/assets/45ca11da-00df-4f45-8093-eb84f56b305a)
+
+
+![20241117_234554_552265956](https://github.com/user-attachments/assets/802610f6-7895-4a87-8e19-635ff864e395)
 
